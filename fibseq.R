@@ -1,7 +1,7 @@
-# My iterative fibonacci function
+# Iterative fibonacci function
 # Generates sequence of fibonacci numbers 'x' units long
 fibseq = function(x){
-  if(x>10) print("Sequence too large. Use smaller integer")
+  if(x>50) print("Sequence too large. Use smaller integer")
   else if(x<3) print("Input too small. Use integer larger than 3")
   else {
     fib = c(1,1)
@@ -11,3 +11,4 @@ fibseq = function(x){
   }
 }
 
+# benchmark(fibseq(20),fibseq(40),fibseq(50))
