@@ -1,8 +1,7 @@
-# import required fibonacci functions
+# import required fibonacci function
 source("fibseq.R")
 
 goldenRatio = (1 + sqrt(5))/2    # roughly 1.618
-
 kmMiles = 1.609344    # kilometres in one mile
 
 # TODO
